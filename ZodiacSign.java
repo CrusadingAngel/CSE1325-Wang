@@ -18,7 +18,6 @@ public class ZodiacSign
         if (month < 1 || month > 12)
         {
             System.out.println("Invalid Month");
-            validMonth = false; 
             System.exit(0);
         }
         System.out.println("What day were you born?")
