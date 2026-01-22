@@ -1,4 +1,4 @@
-package ZodiacSign
+package ZodiacSign;
 import java.util.Scanner;
 //Tyler Sanderson
 //Thomas Davis 
