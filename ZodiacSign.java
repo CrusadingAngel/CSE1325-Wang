@@ -10,7 +10,7 @@ public class ZodiacSign
         //Construct a new instance of the scanner
         Scanner KeyboardInput = new Scanner (System.in);
         
-        System.out.println("This program finds your Zodiac Sign! What month were you born in MM format?")
+        System.out.println("This program finds your Zodiac Sign! What month were you born in MM format?");
 
         //Create two int variables to hold user inputs
         int month = KeyboardInput.nextInt();
@@ -28,17 +28,17 @@ public class ZodiacSign
         int maxDay = 31;
         if (month == 4 || month == 6 || month == 9 || month == 11)
         {
-            maxDay = 30
+            maxDay = 30;
         }
         if (month == 2)
         {
-            maxDay = 28
+            maxDay = 28;
         }
     }
     // Check date
     if ((day < 1 || day > maxDay))
     {
-        System.out.println("Day doesn't exist in the month!")
+        System.out.println("Day doesn't exist in the month!");
         System.exit(0);
     }
 
